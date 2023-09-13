@@ -19,7 +19,7 @@ public:
             // Check if the complement exists in the map
             if (map.find(complement) != map.end())
             {
-                // If it exists, add its indexand the current index to the result vector
+                // If it exists, add its index and the current index to the result vector
                 res.push_back(map[complement]);
                 res.push_back(i);
                 break;
