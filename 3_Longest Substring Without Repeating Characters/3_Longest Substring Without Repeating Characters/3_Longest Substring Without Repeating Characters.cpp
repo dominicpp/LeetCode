@@ -38,3 +38,15 @@ public:
 		return maxLength;
 	}
 };
+
+int main()
+{
+	Solution solution;
+	std::string str = "abcabcbb";
+	int res = solution.lengthOfLongestSubstring(str);
+	
+	std::cout << "Length of longest substring is: " << res;
+
+	std::cin.get();
+	return 0;
+}
